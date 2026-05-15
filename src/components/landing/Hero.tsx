@@ -24,7 +24,7 @@ export default function Hero() {
             </div>
             <h1 className="font-display text-4xl leading-[1.08] text-ink sm:text-5xl md:text-[3.5rem] lg:text-6xl">
               Seu próximo cliente provavelmente está pesquisando por{" "}
-              <em className="text-gold not-italic italic">advogado</em> no Google agora.
+              <em className="font-display italic text-gold">advogado</em> no Google agora.
             </h1>
             <p className="mt-7 max-w-xl text-base leading-relaxed text-ink-muted md:text-lg">
               Estruture presença no Google com campanhas estratégicas e uma Landing Page pensada
