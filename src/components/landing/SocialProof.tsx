@@ -31,7 +31,7 @@ export default function SocialProof() {
 
         <div className="mt-16 grid gap-8 md:grid-cols-2">
           <div data-reveal>
-            <ScreenshotFrame label="[PRINT DO IVAN]" />
+            <ScreenshotFrame label="Depoimento Dr. Ivan Gabetta" src={printIvan} />
           </div>
           <div data-reveal>
             <ScreenshotFrame label="[PRINT DA ADVOGADA]" />
