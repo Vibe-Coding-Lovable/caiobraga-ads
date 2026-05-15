@@ -1,6 +1,6 @@
 import heroPhoto from "@/assets/ivan-hero.png";
 
-const WA = "https://wa.me/SEUNUMERO";
+const WA = "https://wa.me/5521979513208";
 
 const checks = [
   "Conversa sem compromisso",

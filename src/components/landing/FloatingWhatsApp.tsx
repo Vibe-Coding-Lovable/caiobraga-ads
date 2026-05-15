@@ -1,4 +1,4 @@
-const WA = "https://wa.me/SEUNUMERO";
+const WA = "https://wa.me/5521979513208";
 
 export default function FloatingWhatsApp() {
   return (
