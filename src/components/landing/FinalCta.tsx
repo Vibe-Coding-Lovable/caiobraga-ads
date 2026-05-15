@@ -1,6 +1,6 @@
 import { useReveal } from "@/hooks/use-reveal";
 
-const WA = "https://wa.me/SEUNUMERO";
+const WA = "https://wa.me/5521979513208";
 const checks = [
   "Conversa estratégica",
   "Sem compromisso",
