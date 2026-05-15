@@ -1,3 +1,5 @@
+import heroPhoto from "@/assets/ivan-hero.png";
+
 const WA = "https://wa.me/SEUNUMERO";
 
 const checks = [
@@ -54,9 +56,12 @@ export default function Hero() {
           <div className="md:col-span-5">
             <div className="relative mx-auto aspect-[4/5] w-full max-w-sm">
               <div className="absolute -top-3 -left-3 h-full w-full border border-gold/40" />
-              <div className="relative flex h-full w-full items-center justify-center bg-surface text-xs tracking-[0.3em] text-ink-muted uppercase">
-                [PHOTO]
-              </div>
+              <img
+                src={heroPhoto}
+                alt="Consultor de marketing para advocacia"
+                className="relative h-full w-full object-cover"
+                loading="eager"
+              />
             </div>
           </div>
         </div>
