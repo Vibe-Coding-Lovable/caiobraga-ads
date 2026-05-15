@@ -29,23 +29,23 @@ export default function SocialProof() {
           Alguns feedbacks e resultados
         </h2>
 
-        <div className="mx-auto mt-16 max-w-sm">
-          <div data-reveal>
+        <div className="mx-auto mt-16 grid max-w-3xl grid-cols-1 items-center gap-10 md:grid-cols-2 md:gap-12">
+          <div data-reveal className="mx-auto w-full max-w-sm">
             <ScreenshotFrame label="Depoimento Dr. Ivan Gabetta" src={printIvan} />
           </div>
-        </div>
 
-        <div data-reveal className="mx-auto mt-10 max-w-sm">
-          <div className="relative">
-            <div className="absolute -top-2 -right-2 h-6 w-6 border-t border-r border-gold" />
-            <div className="absolute -bottom-2 -left-2 h-6 w-6 border-b border-l border-gold" />
-            <video
-              src="/depoimento.mp4"
-              controls
-              playsInline
-              preload="metadata"
-              className="relative aspect-[9/16] w-full border border-line bg-surface object-cover"
-            />
+          <div data-reveal className="mx-auto w-full max-w-[260px]">
+            <div className="relative">
+              <div className="absolute -top-2 -right-2 h-6 w-6 border-t border-r border-gold" />
+              <div className="absolute -bottom-2 -left-2 h-6 w-6 border-b border-l border-gold" />
+              <video
+                src="/depoimento.mp4"
+                controls
+                playsInline
+                preload="metadata"
+                className="relative aspect-[9/16] w-full border border-line bg-surface object-cover"
+              />
+            </div>
           </div>
         </div>
 
