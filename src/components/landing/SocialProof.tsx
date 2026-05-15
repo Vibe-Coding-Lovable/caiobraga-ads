@@ -29,12 +29,9 @@ export default function SocialProof() {
           Alguns feedbacks e resultados
         </h2>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-2">
+        <div className="mx-auto mt-16 max-w-sm">
           <div data-reveal>
             <ScreenshotFrame label="Depoimento Dr. Ivan Gabetta" src={printIvan} />
-          </div>
-          <div data-reveal>
-            <ScreenshotFrame label="[PRINT DA ADVOGADA]" />
           </div>
         </div>
 
