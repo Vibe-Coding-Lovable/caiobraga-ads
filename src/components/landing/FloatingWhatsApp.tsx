@@ -1,4 +1,8 @@
-const WA = "https://wa.me/5521979513208";
+const WA =
+  "https://wa.me/5521979513208?text=" +
+  encodeURIComponent(
+    "Olá! Vim pelo site e quero entender como o Google Ads funcionaria para o meu escritório.",
+  );
 
 export default function FloatingWhatsApp() {
   return (
