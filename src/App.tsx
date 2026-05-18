@@ -7,8 +7,10 @@ import Market from "./components/landing/Market";
 import Faq from "./components/landing/Faq";
 import FinalCta from "./components/landing/FinalCta";
 import FloatingWhatsApp from "./components/landing/FloatingWhatsApp";
+import { useAnalytics } from "./hooks/use-analytics";
 
 export default function App() {
+  useAnalytics();
   return (
     <main className="bg-bg text-ink">
       <Hero />
