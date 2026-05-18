@@ -34,7 +34,7 @@ export default function SocialProof() {
             <ScreenshotFrame label="Depoimento Dr. Ivan Gabetta" src={printIvan} />
           </div>
 
-          <div data-reveal className="mx-auto w-full max-w-[260px]">
+          <div data-reveal className="mx-auto w-full max-w-sm">
             <div className="relative">
               <div className="absolute -top-2 -right-2 h-6 w-6 border-t border-r border-gold" />
               <div className="absolute -bottom-2 -left-2 h-6 w-6 border-b border-l border-gold" />
