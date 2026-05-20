@@ -3,14 +3,10 @@ import heroPhoto from "@/assets/ivan-hero.png";
 const WA =
   "https://wa.me/5521979513208?text=" +
   encodeURIComponent(
-    "Olá! Vim pelo site e quero entender como o Google Ads funcionaria para o meu escritório.",
+    "Olá! Vim pelo site porque quero entender como atrair clientes com mais previsibilidade para o meu escritório.",
   );
 
-const checks = [
-  "Conversa sem compromisso",
-  "Estratégia personalizada",
-  "Atendimento focado em advocacia",
-];
+const checks = ["Conversa sem compromisso", "Estratégia personalizada", "Atendimento focado em advocacia"];
 
 export default function Hero() {
   return (
@@ -31,8 +27,8 @@ export default function Hero() {
               <em className="font-display italic text-gold">advogado</em> no Google agora.
             </h1>
             <p className="mt-7 max-w-xl text-base leading-relaxed text-ink-muted md:text-lg">
-              Estruture presença no Google com campanhas estratégicas e uma Landing Page pensada
-              para transformar visitas em contatos reais.
+              Estruture presença no Google com campanhas estratégicas e uma Landing Page pensada para transformar
+              visitas em contatos reais.
             </p>
 
             <div className="mt-10">
